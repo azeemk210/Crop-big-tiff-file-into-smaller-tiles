@@ -1,5 +1,7 @@
 # Patchify
- 
+
+# Split Large TIFF Files into Smaller Tiles
+
  This code is a script to split a large TIFF file into smaller tiles of a specified size (500 x 500 pixels in this case). The script uses the GDAL library to read the TIFF files and create smaller tiles.
 
 The code first checks if the output folder exists, and creates it if it doesn't. Then, it iterates over all files in the input folder and only considers TIFF files (files ending with '.tif').
