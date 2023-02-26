@@ -11,3 +11,5 @@ For each TIFF file, it calculates the number of rows and columns of tiles requir
 The code also handles the case of the last tile of each row, which may be smaller than the specified tile size (in this case, 250 x 512 pixels). This tile is extracted in the same way as the other tiles and saved with a file name indicating that it's the last column tile for the respective row.
 
 Overall, this script provides an efficient way to split large TIFF files into smaller tiles for further processing.
+
+![](422908_2020_RGB_20_BEV_LFRZ_SAGIS.tif_col0_last_row.tif)
